@@ -66,7 +66,7 @@ int32_t sceKernelCancelSema(OrbisKernelSema, int32_t, int32_t*);
 // Empty Comment
 int32_t sceKernelCheckedReleaseDirectMemory(off_t memstart, size_t memlen);
 // Empty Comment
-int sceKernelCheckReachability(char*);
+int sceKernelCheckReachability(const char*);
 // Empty Comment
 int32_t sceKernelChmod(const char *path, OrbisKernelMode mode);
 // Empty Comment
